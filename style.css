@@ -1,0 +1,248 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+body {
+    background: #07081A;
+}
+
+.fullContainerOfheaderAndMain {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.logoSpan {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.logo {
+    width: 32px;
+    height: 36px;
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.headerAnchors {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.AnchorHome {
+    color: #8CE900;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.navigationDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.navigationContainer {
+    border-bottom: 1px solid #261C51;
+    display: flex;
+    justify-content: center;
+}
+
+.headerContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 28px;
+    max-width: 1040px;
+    width: 100%;
+}
+
+h1 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 52px;
+    max-width: 583px;
+    width: 100%;
+}
+
+.mainImage {
+    max-width: 314px;
+    width: 100%;
+    height: 320px;
+}
+
+.firstSectionMainContainer {
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+.firstSectionMain {
+    max-width: 1040px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* --------------------Main Second Section -------------------------- */
+
+.spanWithBigNumber {
+    color: #8CE900;
+    font-family: Inter;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 60px;
+}
+
+.spanOfProject {
+    color: #C0C0C0;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.projectDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.mainSecondSectionContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.secondSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 40px 72px;
+    background-color: #242642;
+    max-width: 1040px;
+    width: 100%;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+
+}
+
+/* --------------------footer---------------------------------- */
+
+.footerSpan {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.FooterParagraph {
+    color: #C0C0C0;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    max-width: 264px;
+    width: 100%;
+}
+
+.imgOfFooter {
+    max-width: 32px;
+    width: 100%;
+    height: 36px;
+}
+
+.footerlogocontainer {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.leftsideOfFooter {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.centralAnchorsDiv,
+.rightAnchoresDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footerAnchorNavigation,
+.footerContact {
+    color: #8CE900;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.footerAnchors,
+.RightSideOfFooter {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.footerDivs {
+    max-width: 1040px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerContainer {
+    display: flex;
+    justify-content: center;
+    margin: 200px 0px 64px;
+}
+
